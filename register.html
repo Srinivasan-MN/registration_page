@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <script defer src="./js/register.js"></script>
+    <title>Registration Page</title>
+</head>
+<body>
+    <h2 class="registrationTitle">Registration Form</h2>
+    <div class="registrationcontainer">
+        
+        <form action="#" id="registrationForm">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter Your First Name">
+                <div class="error" id="nameError1"></div>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name">
+                <div class="error" id="nameError2"></div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter Your Email Address">
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="dob" class="form-label">Date-of-Birth</label>
+                <input type="date" class="form-control" id="dob" placeholder="Enter Your Date-of-Birth">
+                <div class="error" id="dobError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile Number</label>
+                <input type="text" class="form-control" id="mobile" placeholder="Enter Your Mobile Number">
+                <div class="error" id="mobileError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <select class="form-select" aria-label="Default select example" id="gender">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Others</option>
+                </select>
+                <div class="error" id="genderError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="maritualStatus" class="form-label">Maritual Status</label>
+                <select class="form-select" aria-label="Default select example" id="maritualStatus">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Married</option>
+                    <option value="2">Unmarried</option>
+                    <option value="3">Widowed</option>
+                    <option value="4">Divorced</option>
+                </select>
+                <div class="error" id="marriedError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <input type="text" class="form-control" id="country" placeholder="Enter Your Country Name">
+                <div class="error" id="countryError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="state" class="form-label">State</label>
+                <input type="text" class="form-control" id="state" placeholder="Enter Your State">
+                <div class="error" id="stateError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter Your Address">
+                <div class="error" id="addressError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="district" class="form-label">District</label>
+                <input type="text" class="form-control" id="district" placeholder="Enter Your District Name">
+                <div class="error" id="districtError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="postalCode" class="form-label">Postal Code</label>
+                <input type="number" class="form-control" id="postalCode" placeholder="Enter Your Postal Code">
+                <div class="error" id="postalError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Set Your Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter Your Password">
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="rePass" class="form-label">Re-type Your Password</label>
+                <input type="password" class="form-control" id="rePass" placeholder="Re-type Your Password">
+                <div class="error" id="repassError"></div>
+            </div>
+            <button id="registerId" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <p>
+        <div id="register_output"></div>
+    </p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* nav bar style */
+nav{
+    padding: 5%;
+    font-size: 1.2em;
+}
+#navbarNav{
+    padding: 0.2%;
+}
+
+
+/* registration form styles */
+.registrationcontainer{
+    width: 70%;
+    height: 60%;
+    margin: auto;
+}
+.registrationTitle{
+    text-align: center;
+    background-color: rgb(103, 98, 98);
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+.error{
+    color: red;
+}
+
+
+/* login page style */
+.loginContainer{
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    
+    
+}
+.loginTitle{
+    text-align: center;
+    background-color: rgb(103, 98, 98);
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    /* border-radius: 30px;     */
+}
+#loginForm{
+    margin-top: 20px;   
+    border: 2px solid rgb(103, 98, 98);
+    border-radius: 30px;
+    padding: 5%;
+}
+#error{
+    color: red;
+    
+}
