@@ -17,8 +17,8 @@ var pattern = /^[A-Za-z]+$/
 
 $(document).ready(function(){
     $("#registerId").on("click", function(){
-       //var flag = Boolean(validation())
-        var flag = true
+       var flag = Boolean(validation())
+        
        if(flag == true){
             var user = email.value
             var pass = password.value
